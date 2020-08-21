@@ -1,0 +1,20 @@
+body {
+  background-color: ivory;
+  margin: 7px;
+  top: 57px;
+  font-family: "Arial Rounded MT Bold";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: chocolate;
+  position: absolute;
+
+}
+h3 {
+  margin-left: 257px;
+  margin-right: -157px;
+  margin-top: -37px;
+  color: brown;
+}
+input {
+  border-color: coral;
+}
