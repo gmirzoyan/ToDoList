@@ -8,7 +8,7 @@ function TodoCreateList(props) {
         <div className="container">
             <br/>
             <ol>
-                {props.list.map(el => <li key={el.id}><TodoItem el={el} handleDone={props.handleDone} deleteItem={props.deleteItem} update={props.update}/></li>)}
+                {props.list.map(el => <li key={el._id}><TodoItem el={el} handleDone={props.handleDone} deleteItem={props.deleteItem} update={props.update}/></li>)}
             </ol>
         </div>
     );
